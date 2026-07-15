@@ -34,7 +34,7 @@ Shader"Shaders Book/BlinnPhong"
             {
                 float4 pos : SV_POSITION;
                 float3 worldNormal : TEXCOORD0;
-                float worldPos : TEXCOORD1;
+                float3 worldPos : TEXCOORD1;
             };
 
             v2f vert(a2v v)
